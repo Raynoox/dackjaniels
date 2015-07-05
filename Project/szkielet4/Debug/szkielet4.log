@@ -1,0 +1,30 @@
+﻿Build started 2015-07-05 13:38:27.
+     1>Project "C:\Users\Kryszak\Desktop\ProjectDackJaniels-master\Project\szkielet4\szkielet4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main_file.cpp
+         main_file.cpp
+     1>c:\users\kryszak\desktop\projectdackjaniels-master\project\szkielet4\model_obj.cpp(98): warning C4172: zwracanie adresu lokalnej zmiennej lub tymczasowej
+     1>c:\users\kryszak\desktop\projectdackjaniels-master\project\szkielet4\model_obj.cpp(116): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211): zobacz deklarację "fopen"
+     1>c:\users\kryszak\desktop\projectdackjaniels-master\project\szkielet4\model_obj.cpp(127): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230): zobacz deklarację "fscanf"
+     1>c:\users\kryszak\desktop\projectdackjaniels-master\project\szkielet4\model_obj.cpp(135): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230): zobacz deklarację "fscanf"
+     1>c:\users\kryszak\desktop\projectdackjaniels-master\project\szkielet4\model_obj.cpp(140): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230): zobacz deklarację "fscanf"
+     1>c:\users\kryszak\desktop\projectdackjaniels-master\project\szkielet4\model_obj.cpp(146): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230): zobacz deklarację "fscanf"
+     1>c:\users\kryszak\desktop\projectdackjaniels-master\project\szkielet4\model_obj.cpp(152): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(230): zobacz deklarację "fscanf"
+     1>c:\users\kryszak\desktop\projectdackjaniels-master\project\szkielet4\main_file.cpp(294): warning C4244: "+=" : konwersja z "double" do "float", możliwa utrata danych
+     1>c:\users\kryszak\desktop\projectdackjaniels-master\project\szkielet4\main_file.cpp(295): warning C4244: "+=" : konwersja z "double" do "float", możliwa utrata danych
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kryszak\Desktop\ProjectDackJaniels-master\Project\Debug\szkielet4.exe" /INCREMENTAL /NOLOGO OPENGL32.LIB freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kryszak\Desktop\ProjectDackJaniels-master\Project\Debug\szkielet4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kryszak\Desktop\ProjectDackJaniels-master\Project\Debug\szkielet4.lib" /MACHINE:X86 Debug\main_file.obj
+         Debug\shaderprogram.obj
+         Debug\tga.obj
+         szkielet4.vcxproj -> C:\Users\Kryszak\Desktop\ProjectDackJaniels-master\Project\Debug\szkielet4.exe
+     1>Done Building Project "C:\Users\Kryszak\Desktop\ProjectDackJaniels-master\Project\szkielet4\szkielet4.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.75
